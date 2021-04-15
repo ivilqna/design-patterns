@@ -17,7 +17,6 @@ public class Topic implements Observable {
 	public void subscribe(Observer observer) {
 		this.observers.add(observer);
 		observer.setTopic(this);
-
 	}
 
 	@Override
